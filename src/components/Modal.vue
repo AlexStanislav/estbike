@@ -171,7 +171,7 @@ export default {
         flex-flow: row;
         justify-content: space-around;
         position: absolute;
-        bottom: 1rem;
+        bottom: 0;
         overflow-x: auto;
     }
     .gallery-image{
