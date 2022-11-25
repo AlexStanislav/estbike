@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Africa Twin",
+        "brand": "honda",
+        "category": "adventure",
+        "description": "Africa Twin este proiectată pentru a depăși limitele. Oferă manevrare precisă și agilă în off-road, fie că vorbim despre un drum forestier de viteză, sau o urcare pe un drum stâncos.",
+        "price": "14950",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "102CP"
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "850/870 mm"
+            },
+            {
+                "detail": "Consum mixt",
+                "data": "4.9 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "18.8 l"
+            }
+        ],
+        "thumbnail": "Africa-details-bike-image-300x225.png",
+        "img": [
+            "22YM_AFRICA_TWIN_L1_LOCATION_2652-1024x768.jpg",
+            "22YM_AFRICA_TWIN_L1_LOCATION_2786-1024x768.jpg",
+            "22YM_AFRICA_TWIN_L1_LOCATION_9901-1024x768.jpg"
+        ]
+    },
+    {
+        "name": "Adventure Sports",
+        "brand": "honda",
+        "category": "adventure",
+        "description": "Privește către un nou orizont și către un nou cer senin. Pentru asta am construit noua Africa Twin Adventure Sports - pregătită să cutreiere lumea cu tehnologie avansată și dotări premium.",
+        "price": "19350",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "102CP"
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "850/870 mm"
+            },
+            {
+                "detail": "Consum mixt",
+                "data": "4.9 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "24.8 l"
+            }
+        ],
+        "thumbnail": "Africa-Adventure-Details-11-300x225.png",
+        "img": [
+            "22YM_AFRICA_TWIN_L4_LOCATION_2095-1024x768.jpg",
+            "22YM_AFRICA_TWIN_L4_LOCATION_6078-1024x768.jpg",
+            "22YM_AFRICA_TWIN_L4_LOCATION_8464-1024x768.jpg"
+        ]
+    },
+    {
+        "name": "NC 750 X",
+        "brand": "honda",
+        "category": "adventure",
+        "description": "Noul NC750X este pregătit pentru orice aventură. Fie că mergi în oraș sau la drum lung, cutia automată cu dublu ambreiaj DCT iți va oferi tot confortul de care ai nevoie.",
+        "price": "8950",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "58CP"
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "800 mm"
+            },
+            {
+                "detail": "Consum mixt",
+                "data": "3.5 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "14.1 l"
+            }
+        ],
+        "thumbnail": "NC750X-23YM-300x165.png",
+        "img": [
+            "21YM_NC750X_Grand_Prix_Red_R-380_Headlight_On_High-1024x576.jpg",
+            "21YM_NC750X_Grand_Prix_Red_R-380_Logo-1024x576.jpg",
+            "21YM_NC750X_Grand_Prix_Red_R-380_Tank-1024x576.jpg"
+        ]
+    }
+]

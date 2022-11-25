@@ -1,0 +1,246 @@
+@media screen and (max-width:1024px) {
+    main{
+      width: 100%;
+    }
+    .contact-info{
+        margin-right: 170px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #mobile-header{
+        display: none;
+    }
+}
+
+@media screen and (max-width:915px) {
+    #header-container{
+        display: none;
+    }
+    main{
+        width: 100%;
+    }
+    #home-contact-container{
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    #home-map{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-flow: column;
+        margin: 0 1rem;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .about{
+        width: 95%;
+        margin: auto;
+        h1{
+            text-align: center;
+        }
+    }
+
+    .contact-wrapper{
+        flex-flow: column;
+    }
+
+    .contact-info{
+        width: 95% !important;
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+        h2{
+            display: none;
+        }
+    }
+
+    .contact-info h2{
+        width: 90% !important;
+    }
+    .contact-info-wrapper{
+        flex-flow: column !important;
+    }
+
+    .social-media{
+        flex-flow: column;
+    }
+
+    .maps{
+        width: 95% !important;
+        margin: auto;
+    }
+
+    .modal-content{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        border-radius: 0;
+        .right-panel{
+            width: 50%;
+            height: 80%;
+            margin-top: 5%;
+            .main-image{
+                width: 100%;
+            }
+        }
+
+        .right-panel .modal-gallery{
+           bottom: -2rem;
+        }
+
+        .right-panel .gallery-image{
+            width: 100px;
+        }
+
+        .left-panel{
+            width: 95%;
+            margin: 7% 0 0 1rem;
+        }
+        
+
+        .modal-price{
+            font-size: 2rem;
+            bottom: 1rem;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:412px) {
+    #header-container{
+        display: none;
+    }
+    main{
+        width: 100%;
+    }
+
+////////////////////HOME//////////////////////
+    #home-contact{
+        display: flex;
+        flex-flow: column;
+    }
+    #slider{
+        align-items: center;
+        height: 100%;
+        #slider-caption{
+            top: 1rem;
+        }
+        img{
+            height: 40%;
+        }
+        #index-container{
+            bottom: 20%;
+        }
+        #bottom-gradient{
+            display: none;
+        }
+    }
+    #home-contact-container{
+        flex-flow: column;
+        align-items: center;
+        .home-contact-wrapper{
+            margin: 1rem 0;
+        }
+    }
+
+    
+////////////////////MODELS//////////////////////
+    #models-wrapper{
+        margin: auto;
+        width: 90%;
+        flex-flow: column;
+    }
+
+    #models-grid{
+        flex-flow: column !important;
+        align-items: center;
+        margin-left: initial;
+    }
+
+////////////////////MODAL//////////////////////
+
+    .modal-content{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        border-radius: 0;
+        flex-flow: column;
+        align-items: center;
+        h1{
+            font-size: 1.5rem;
+            margin: 5% 0;
+        }
+        .right-panel{
+            width: 95%;
+            height: 50%;
+            margin-top: 10%;
+            .main-image{
+                width: 100%;
+            }
+        }
+        .right-panel .gallery-image{
+            width: 100px;
+        }
+
+        .left-panel{
+            width: 95%;
+            margin: 0;
+        }
+        
+
+        .modal-price{
+            font-size: 2rem;
+            bottom: 1rem;
+            text-align: center;
+        }
+    }
+
+
+////////////////////ABOUT//////////////////////
+
+    .about{
+        width: 95%;
+        margin: auto;
+        h1{
+            text-align: center;
+        }
+    }
+
+
+////////////////////CONTACT//////////////////////
+
+    .contact-wrapper{
+        flex-flow: column;
+    }
+
+    .contact-info{
+        width: 95% !important;
+    }
+
+    .contact-info h2{
+        width: 90% !important;
+    }
+    .contact-info-wrapper{
+        flex-flow: column !important;
+    }
+
+    .social-media{
+        flex-flow: column;
+    }
+
+    .maps{
+        width: 95% !important;
+        margin: auto;
+    }
+
+////////////////////FOOTER//////////////////////
+    #footer-container{
+        flex-flow: column;   
+    }
+
+    .footer-wrapper{
+        margin-bottom: 2rem;
+    }
+}
