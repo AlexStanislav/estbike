@@ -158,7 +158,7 @@
         "name": "R1 World GP 60th Anniversary",
         "brand": "yamaha",
         "category": "supersport",
-        "description": "Dispunând de tehnologie de ultimă oră de la modelul câștigător al Yamaha, M1 MotoGP®, R1 este supersportul suprem, de curse. Iar pentru a celebra 60 de ani de curse Grand Prix, a fost creat extraordinarul model R7 dedicat celei de-a 60-a aniversări World GP. Având un finisaj în culori istorice de curse, este tributul suprem pentru unele dintre cele mai emblematice motociclete de curse Yamaha.",
+        "description": "Dispunând de tehnologie de ultimă oră de la modelul câștigător al Yamaha, M1 MotoGP®, R1 este supersportul suprem, de curse. Iar pentru a celebra 60 de ani de curse Grand Prix, a fost creat extraordinarul model R7 dedicat celei de-a 60-a aniversări World GP.",
         "price": "21050",
         "technical": [
             {
@@ -309,7 +309,7 @@
             "2022-Yamaha-YZF600R6RCOMP-EU-Detail-007-03.jpg"
         ]
     },
-    {
+    { 
         "name": "R1M",
         "brand": "yamaha",
         "category": "supersport",

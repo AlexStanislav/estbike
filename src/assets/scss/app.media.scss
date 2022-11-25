@@ -77,10 +77,13 @@
         height: 100%;
         padding: 0;
         border-radius: 0;
+        h1{
+            font-size: 1rem;
+        }
         .right-panel{
             width: 50%;
             height: 80%;
-            margin-top: 5%;
+            margin-top: 3%;
             .main-image{
                 width: 100%;
             }
@@ -96,12 +99,12 @@
 
         .left-panel{
             width: 95%;
-            margin: 7% 0 0 1rem;
+            margin: 5% 0 0 1rem;
         }
         
 
         .modal-price{
-            font-size: 2rem;
+            font-size: 1rem;
             bottom: 1rem;
             text-align: center;
         }
@@ -169,12 +172,12 @@
         flex-flow: column;
         align-items: center;
         h1{
-            font-size: 1.5rem;
-            margin: 5% 0;
+            font-size: 1.2rem;
+            margin: 3% 0;
         }
         .right-panel{
-            width: 95%;
-            height: 50%;
+            width: 90%;
+            height: 45%;
             margin-top: 10%;
             .main-image{
                 width: 100%;
@@ -188,10 +191,28 @@
             width: 95%;
             margin: 0;
         }
+
+        .modal-desc{
+            h3{
+                margin-top: 2rem;
+            }
+            p{
+                font-size: 0.9rem;
+            }
+        }
+
+        .modal-tech{
+            h3{
+                margin: 0;
+            }
+            p, ul{
+                margin-top: 0.2rem;
+            }
+        }
         
 
         .modal-price{
-            font-size: 2rem;
+            font-size: 1.5rem;
             bottom: 1rem;
             text-align: center;
         }
