@@ -1,9 +1,88 @@
+@media screen and (max-width:1366px) {
+    header{
+        width: 70%;
+    }
+
+    .slide-desc-container{
+        bottom: 3rem !important;
+    }
+    .slide-desc{
+        font-size: 5rem !important;
+    }
+    .slide-tagline{
+        font-size: 2rem !important;
+    }
+
+    #sidebar{
+        flex-basis: 30% !important;
+    }
+
+    #models-grid{
+        justify-content: center;
+    }
+
+    .contact-wrapper{
+        justify-content: space-between;
+    }
+
+    #service-form{
+        width: 100% !important;
+    }
+
+    #bike-image-container, #main-image-container, #main-image-background{
+        height: 60vh !important;
+    }
+
+    #bike-details-container{
+        font-size: 1.5rem !important;
+    }
+
+    #bike-tech-container{
+        bottom: 2rem !important;
+    }
+    
+    .bike-icon{
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    .bike-data{
+        font-size: 1rem;
+    }
+
+    .bike-label{
+        font-size: 0.9rem !important;
+    }
+
+    .bike-detail{
+        width: 8rem !important;
+    }
+}
 @media screen and (max-width:1024px) {
+    header{
+        width: 80%;
+    }
+
+    #header-container{
+        left: 20px !important;
+    }
     main{
       width: 100%;
     }
     .contact-info{
         margin-right: 170px;
+    }
+    #mobile-header{
+        display: none;
+    }
+
+    .bike-detail{
+        width: 7rem !important;
+    }
+
+    .main-image{
+        background-repeat: no-repeat !important;
+        background: $dark-shade;
     }
 }
 
@@ -14,12 +93,53 @@
 }
 
 @media screen and (max-width:915px) {
+
+
+    .desktop-logo{
+        display: none;
+    }
+    
     #header-container{
         display: none;
     }
+
+    header{
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: $dark-shade;
+        border-bottom: 2px solid $main;
+    }
+
+    .hooper{
+        height: 85vh !important;
+    }
+
     main{
         width: 100%;
     }
+
+    .home{
+        margin-top: 50px;
+    }
+
+    .slide-img{
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        background-position: top !important;
+    }
+    .slide-desc-container{
+        width: 90% !important;
+        margin-left: 5%;
+        bottom: 4rem !important;
+    }
+    .slide-desc{
+        font-size: 2rem !important;
+    }
+    .slide-tagline{
+        font-size: 1rem !important;
+    }
+
     #home-contact-container{
         flex-flow: row wrap;
         justify-content: center;
@@ -72,191 +192,33 @@
         margin: auto;
     }
 
-    .modal-content{
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        border-radius: 0;
-        h1{
-            font-size: 1rem;
-        }
-        .right-panel{
-            width: 50%;
-            height: 80%;
-            margin-top: 3%;
-            .main-image{
-                width: 100%;
-            }
-        }
-
-        .right-panel .modal-gallery{
-           bottom: -2rem;
-        }
-
-        .right-panel .gallery-image{
-            width: 100px;
-        }
-
-        .left-panel{
-            width: 95%;
-            margin: 5% 0 0 1rem;
-        }
-        
-
-        .modal-price{
-            font-size: 1rem;
-            bottom: 1rem;
-            text-align: center;
-        }
+    #preload-logo{
+        display: none
     }
+
+    @import "phone.landscape.model.media";
+    @import "phone.service.media";
+    
 }
 
 @media screen and (max-width:412px) {
     #header-container{
         display: none;
     }
+
     main{
         width: 100%;
     }
 
-////////////////////HOME//////////////////////
-    #home-contact{
-        display: flex;
-        flex-flow: column;
-    }
-    #slider{
-        align-items: center;
-        height: 100%;
-        #slider-caption{
-            top: 1rem;
-        }
-        img{
-            height: 40%;
-        }
-        #index-container{
-            bottom: 20%;
-        }
-        #bottom-gradient{
-            display: none;
-        }
-    }
-    #home-contact-container{
-        flex-flow: column;
-        align-items: center;
-        .home-contact-wrapper{
-            margin: 1rem 0;
-        }
-    }
-
     
-////////////////////MODELS//////////////////////
-    #models-wrapper{
-        margin: auto;
-        width: 90%;
-        flex-flow: column;
-    }
+   @import "phone.home.media";
+   @import "phone.modele.media";
+   @import "phone.about.media";
+   @import "phone.contact.media";
+   @import "phone.rabla.media";
+   @import "phone.service.media";
+   @import "phone.model.media";
 
-    #models-grid{
-        flex-flow: column !important;
-        align-items: center;
-        margin-left: initial;
-    }
-
-////////////////////MODAL//////////////////////
-
-    .modal-content{
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        border-radius: 0;
-        flex-flow: column;
-        align-items: center;
-        h1{
-            font-size: 1.2rem;
-            margin: 3% 0;
-        }
-        .right-panel{
-            width: 90%;
-            height: 45%;
-            margin-top: 10%;
-            .main-image{
-                width: 100%;
-            }
-        }
-        .right-panel .gallery-image{
-            width: 100px;
-        }
-
-        .left-panel{
-            width: 95%;
-            margin: 0;
-        }
-
-        .modal-desc{
-            h3{
-                margin-top: 2rem;
-            }
-            p{
-                font-size: 0.9rem;
-            }
-        }
-
-        .modal-tech{
-            h3{
-                margin: 0;
-            }
-            p, ul{
-                margin-top: 0.2rem;
-            }
-        }
-        
-
-        .modal-price{
-            font-size: 1.5rem;
-            bottom: 1rem;
-            text-align: center;
-        }
-    }
-
-
-////////////////////ABOUT//////////////////////
-
-    .about{
-        width: 95%;
-        margin: auto;
-        h1{
-            text-align: center;
-        }
-    }
-
-
-////////////////////CONTACT//////////////////////
-
-    .contact-wrapper{
-        flex-flow: column;
-    }
-
-    .contact-info{
-        width: 95% !important;
-    }
-
-    .contact-info h2{
-        width: 90% !important;
-    }
-    .contact-info-wrapper{
-        flex-flow: column !important;
-    }
-
-    .social-media{
-        flex-flow: column;
-    }
-
-    .maps{
-        width: 95% !important;
-        margin: auto;
-    }
-
-////////////////////FOOTER//////////////////////
     #footer-container{
         flex-flow: column;   
     }

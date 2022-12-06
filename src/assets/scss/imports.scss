@@ -1,5 +1,12 @@
 @font-face
 {
+    font-family: 'Oswald';
+    font-weight: normal;
+    font-style: normal;
+    src: url('~@/assets/fonts/Oswald-Regular.ttf');
+}
+@font-face
+{
     font-family: 'OpenSans';
     font-weight: normal;
     font-style: normal;
@@ -7,14 +14,42 @@
 }
 
 
-$light-shade: #F4EDF0;
-$light-accent: #D79566;
-$main: #B93232;
-$dark-accent: #847D96;
-$dark-shade: #282D3B;
+$light-shade: #F3F7F4;
+$light-accent: #9195A9;
+$main: #D70000;
+$dark-accent: #C03E53;
+$dark-shade: #1C131C;
+$accent: #45ae53;
+$dark: #3d4541;
 
-$primary: #be3836;
+// $light-shade: #F4EDF0;
+// $light-accent: #D79566;
+// $main: #B93232;
+// $dark-accent: #847D96;
+// $dark-shade: #282D3B;
+
+$primary: #D70000;
 $info: #272c40;
 $success: #6e8b48;
 $warning: #ec7b10;
 $danger: #f44336;
+
+.title{
+  width: 80%;
+  border-bottom: 1px solid;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $main;
+}
+
+::-webkit-scrollbar-track {
+  background: $light-shade;
+}

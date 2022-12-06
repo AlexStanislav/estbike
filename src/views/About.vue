@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>Despre noi</h1>
+    <h1 class="title">Despre noi</h1>
     <article class="about-card">
       <h2>Din pasiune pentru motociclete...</h2>
       <p>
@@ -72,10 +72,18 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  mounted() {
+    window.EventBus.dispatch('sectionnothome')
+  },
+};
 </script>
 <style lang="scss">
 @import "@/assets/scss/imports";
+.about{
+  width: 90%;
+  margin: 80px auto 0 auto;
+}
 .about-card {
   background: $main;
   color: $light-shade;

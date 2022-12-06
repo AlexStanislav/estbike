@@ -1,0 +1,49 @@
+#bike-info{
+    width: 90% !important;
+    justify-content: space-between;
+}
+
+#bike-details-container{
+    font-size: 1rem !important;
+    margin: 0 !important;
+}
+
+#bike-image-container, #main-image-container, #main-image-background{
+    height: 90vh !important;
+}
+
+
+#bike-details-container p{
+    margin: 1rem !important;
+}
+
+#bike-tech-container{
+    bottom: 1rem !important;
+}
+
+.bike-icon{
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+.bike-data{
+    font-size: 0.7rem;
+}
+
+.bike-label{
+    font-size: 0.6rem !important;
+}
+
+.bike-detail{
+    width: 5rem !important;
+}
+
+.main-image{
+    background-repeat: no-repeat !important;
+    background: $dark-shade;
+}
+
+#similar-models-container{
+    flex-flow: column;
+    align-items: center;
+}

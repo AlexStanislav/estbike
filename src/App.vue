@@ -1,110 +1,55 @@
 <template>
   <div id="app">
-    <header>
-      <div id="header-container">
-        <div id="logo-container">
-          <img :src="require('@/assets/img/logoest.jpg')" alt="Logo EstBike" />
-        </div>
-        <div id="phone-container">
-          <img
-            :src="require('@/assets/img/phone-white.png')"
-            alt="Logo EstBike"
-          />
-          <div id="phone-number-container">
-            <div id="phone-number-title">Telefon</div>
-            <div id="phone-number">0733 782 453</div>
-          </div>
-        </div>
-        <nav>
-          <router-link to="/">Acasă</router-link>
-          <router-link to="/models">Modele</router-link>
-          <router-link to="/about">Despre noi</router-link>
-          <router-link to="/contact">Contact</router-link>
-        </nav>
-      </div>
-      <div id="mobile-header">
-        <div id="mobile-menu-button" @click="toggleMenu()">
-          <img :src="require('@/assets/img/menu.svg')" />
-        </div>
-        <div id="logo-container">
-          <img :src="require('@/assets/img/logoest.jpg')" alt="Logo EstBike" />
-        </div>
-        <div id="phone-number-container">
-          <div id="phone-number">+40 0733 782 453</div>
-        </div>
-      </div>
-    </header>
+    <Header />
     <div id="mobile-menu-container" :style="{ left: `${menuPos}%` }">
       <nav @click="toggleMenu()">
         <router-link to="/">Acasă</router-link>
         <router-link to="/models">Modele</router-link>
         <router-link to="/about">Despre noi</router-link>
         <router-link to="/contact">Contact</router-link>
+        <router-link to="/rabla">Rabla</router-link>
+        <router-link to="/service">Service</router-link>
       </nav>
     </div>
     <main>
       <router-view />
     </main>
-    <footer>
-      <div id="footer-container">
-        <div class="footer-wrapper">
-          <img :src="require('@/assets/img/logoest.jpg')" alt="Logo EstBike" />
-          <p class="footer-about">
-            EST BIKE reprezinta pasiunea imensa pentru motociclete si ATV-uri
-            concretizata intr-un magazin de motociclete si ATV, echipamente si
-            accesorii. Proiectul a fost inceput in primavara...
-          </p>
-          <router-link to="/about">cititi mai mult...</router-link>
-        </div>
-        <div class="footer-wrapper">
-          <div class="footer-info">
-            <div class="footer-info-title">ADRESA:</div>
-            <div class="footer-info-content">Strada Medeea 1A, Contanta</div>
-          </div>
-          <div class="footer-info">
-            <div class="footer-info-title">TELEFON:</div>
-            <div class="footer-info-content">0733 782 453</div>
-          </div>
-          <div class="footer-info">
-            <div class="footer-info-title">EMAIL:</div>
-            <div class="footer-info-content">
-              <a href="mailto:office@estbike.ro">office@estbike.ro</a>
-            </div>
-          </div>
-          <div class="footer-info">
-            <div class="footer-info-title">PROGRAM LUCRU/PROGRAMARI:</div>
-            <div class="footer-info-content">
-              Luni - Vineri / 9:00 AM - 6:00 PM
-            </div>
-          </div>
-        </div>
-        <div class="footer-wrapper">
-          <div class="footer-info">
-            <router-link to="/">Acasă</router-link>
-          </div>
-          <div class="footer-info">
-            <router-link to="/models">Modele</router-link>
-          </div>
-          <div class="footer-info">
-            <router-link to="/about">Despre noi</router-link>
-          </div>
-          <div class="footer-info">
-            <router-link to="/contact">Contact</router-link>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <modal />
+    <Footer />
+    <preloader />
+    <button id="scroll-to-top" @click="scrollToTop()">
+      <div class="top-icon"></div>
+    </button>
   </div>
 </template>
 <script>
-import Modal from "./components/Modal.vue";
+import Footer from "./components/Footer.vue";
+import Header from "./components/Header.vue";
+import Preloader from "./components/Preloader.vue";
 export default {
-  components: { Modal },
+  components: { Header, Footer, Preloader },
   data() {
     return {
       menuPos: -100,
     };
+  },
+  mounted() {
+    let self = this;
+    let header = document.getElementsByTagName("header")[0];
+    window.EventBus.listen("sectionnothome", function () {
+      header.classList.add("wide-header");
+    });
+    window.EventBus.listen("sectionishome", function () {
+      header.classList.remove("wide-header");
+    });
+
+    window.EventBus.listen("showpreloader", function () {
+      let body = document.getElementsByTagName("body")[0];
+      body.style.overflow = "hidden";
+    });
+
+    window.EventBus.listen("showmenu", function () {
+      self.toggleMenu();
+    });
   },
   methods: {
     toggleMenu() {
@@ -114,6 +59,12 @@ export default {
         this.menuPos = -100;
       }
     },
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    },
   },
 };
 </script>
@@ -121,138 +72,36 @@ export default {
 @import "@/assets/scss/imports";
 
 body {
-  font-family: "OpenSans";
+  font-family: "Oswald" !important;
   margin: 0;
   padding: 0;
 }
 
-header {
+.wide-header {
   width: 100%;
-  height: 50px;
-  background: $main;
-  box-shadow: 0 1px 5px 1px rgba($color: #000000, $alpha: 0.5);
-  position: fixed;
   top: 0;
-  z-index: 5;
-}
-
-#header-container {
-  width: 65%;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  position: relative;
-  align-items: center;
-}
-
-#logo-container {
-  width: 100px;
-  img {
-    width: 100%;
-    height: auto;
+  left: 0;
+  background: $dark-shade;
+  border-bottom: 3px solid $main;
+  #header-container {
+    width: 85%;
+    margin: 0;
+    left: 50px;
+    border: none;
   }
-}
-
-#phone-container {
-  width: 125px;
-  margin: 0 2rem;
-  color: $light-shade;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  img {
-    width: 30px;
-    height: 31px;
-  }
-}
-
-#phone-number-title {
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-
-#phone-number {
-  font-size: 0.9rem;
-}
-
-nav {
-  height: 100%;
-  color: $light-shade;
-  position: absolute;
-  right: 0;
-  display: flex;
-  align-items: center;
-  a {
-    text-decoration: none;
-    color: $light-shade;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    transition: all 0.3s ease-in-out;
-    padding: 0 1rem;
-    text-shadow: 0px 0px 2px #000;
-  }
-  a:hover {
-    background: $light-accent;
-    color: $light-shade;
-  }
-  a.router-link-exact-active {
-    background: $light-accent;
-    color: $light-shade;
+  #header-decoration {
+    display: none;
   }
 }
 
 main {
   margin: auto;
-  width: 65%;
-  margin-top: 70px;
-}
-
-footer {
   width: 100%;
-  padding: 5rem 0;
-  background: $dark-shade;
-  margin-top: 2rem;
-}
-
-#footer-container {
-  width: 65%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  a {
-    font-weight: bold;
-    color: $light-shade;
-    font-size: 0.9rem;
-  }
-}
-
-.footer-wrapper {
-  margin-right: 5rem;
-}
-
-.footer-about {
-  width: 270px;
-  font-size: 0.8rem;
-  line-height: 20px;
-  color: #777;
-}
-
-.footer-info {
-  color: $light-shade;
-  margin-bottom: 1rem;
-}
-
-.footer-info-title {
-  font-size: 0.9rem;
-}
-.footer-info-content {
-  font-size: 0.8rem;
-  color: #777;
-  margin-top: 0.2rem;
+  // margin-top: 70px;
 }
 
 #mobile-header {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -273,7 +122,7 @@ footer {
   }
   #phone-number {
     color: white;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -281,26 +130,51 @@ footer {
   width: 100%;
   height: 100%;
   position: fixed;
-  background: $main;
+  background: $dark-shade;
   z-index: 4;
   left: -100%;
   top: 50px;
   transition: all 0.3s ease-in;
-  nav{
+  nav {
     width: 100%;
     flex-flow: column;
     left: 0;
     top: 1rem;
   }
-  a{
+  a {
     width: 100%;
     padding: 0;
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    margin: 1rem 0;
+    // margin: 1rem 0;
   }
 }
 
 @import "@/assets/scss/app.media";
+
+#scroll-to-top{
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 10%;
+  border: none;
+  background: $dark-shade;
+  border: 2px solid $main;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.top-icon{
+  width: 2rem;
+  height: 2rem;
+  clip-path: polygon(50% 0, 100% 25%, 100% 55%, 50% 30%, 0 55%, 0 25%);
+  background: white;
+  margin-bottom: -0.1rem;
+}
 </style>

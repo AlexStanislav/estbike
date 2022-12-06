@@ -1,0 +1,24 @@
+.service{
+    width: 95% !important;
+    p{
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
+
+#service-form{
+    width: 100% !important;
+}
+
+.form-wrapper{
+    flex-flow: column wrap !important;
+    align-items: center;
+}
+
+.form-control{
+    width: fit-content !important;
+}
+
+.service-check-container{
+    flex-flow: column;
+}

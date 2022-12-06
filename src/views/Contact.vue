@@ -16,10 +16,27 @@
           </div>
           <div class="info-row">
             <div class="info-picto">
+              <img
+                :src="require('@/assets/img/phone-white.png')"
+                alt="Logo EstBike"
+              />
+            </div>
+            <div class="info-content">+40 0774 515 065</div>
+          </div>
+          <div class="info-row">
+            <div class="info-picto">
               <font-awesome-icon icon="fas fa-envelope" />
             </div>
             <div class="info-content">
               <a href="mailto:office@estbike.ro">office@estbike.ro</a>
+            </div>
+          </div>
+          <div class="info-row">
+            <div class="info-picto">
+              <font-awesome-icon icon="fas fa-envelope" />
+            </div>
+            <div class="info-content">
+              <a href="mailto:campina@estbike.ro">campina@estbike.ro</a>
             </div>
           </div>
           <div class="info-row">
@@ -102,11 +119,17 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  mounted() {
+    window.EventBus.dispatch('sectionnothome')
+  },
+};
 </script>
 <style lang="scss">
 @import "@/assets/scss/imports";
 .contact {
+  width: 90%;
+  margin: 80px auto 0 auto;
   h1,
   h2 {
     width: 80%;

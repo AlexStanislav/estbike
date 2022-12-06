@@ -15,7 +15,7 @@
                 "data": "850/870 mm"
             },
             {
-                "detail": "Consum mixt",
+                "detail": "Consum",
                 "data": "4.9 L/100km"
             },
             {
@@ -24,6 +24,7 @@
             }
         ],
         "thumbnail": "Africa-details-bike-image-300x225.png",
+        "mainImage": "africa-twin-main.png",
         "img": [
             "22YM_AFRICA_TWIN_L1_LOCATION_2652-1024x768.jpg",
             "22YM_AFRICA_TWIN_L1_LOCATION_2786-1024x768.jpg",
@@ -46,7 +47,7 @@
                 "data": "850/870 mm"
             },
             {
-                "detail": "Consum mixt",
+                "detail": "Consum",
                 "data": "4.9 L/100km"
             },
             {
@@ -55,6 +56,7 @@
             }
         ],
         "thumbnail": "Africa-Adventure-Details-11-300x225.png",
+        "mainImage": "adventure-sports-main.png",
         "img": [
             "22YM_AFRICA_TWIN_L4_LOCATION_2095-1024x768.jpg",
             "22YM_AFRICA_TWIN_L4_LOCATION_6078-1024x768.jpg",
@@ -77,7 +79,7 @@
                 "data": "800 mm"
             },
             {
-                "detail": "Consum mixt",
+                "detail": "Consum",
                 "data": "3.5 L/100km"
             },
             {
@@ -86,10 +88,171 @@
             }
         ],
         "thumbnail": "NC750X-23YM-300x165.png",
+        "mainImage": "nc-main.png",
         "img": [
             "21YM_NC750X_Grand_Prix_Red_R-380_Headlight_On_High-1024x576.jpg",
             "21YM_NC750X_Grand_Prix_Red_R-380_Logo-1024x576.jpg",
             "21YM_NC750X_Grand_Prix_Red_R-380_Tank-1024x576.jpg"
+        ]
+    },
+    {
+        "name": "X-ADV",
+        "brand": "honda",
+        "category": "adventure",
+        "description": "Combinând performanțele unei motociclete adventure, cu confortul unui scuter de cilindree mare, este un SUV cu două roți care sfidează convențiile. Un explorator urban premium, capabil să treacă de asfaltul orașului, la un traseu off-road (și înapoi) într-o clipă, X-ADV transformă fiecare călătorie într-o experiență unică.",
+        "price": "13250",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "58.6CP"
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "820 mm"
+            },
+            {
+                "detail": "Consum",
+                "data": "3.6 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "13.2 l"
+            }
+        ],
+        "thumbnail": "XADV23YM-300x165.png",
+        "mainImage": "xadv-main.png",
+        "img": [
+            "21YM_X-ADV_PEARL_MUD_GRAY_NH-C47P_HEADLIGHT_ON_HIGH-1024x576.jpg",
+            "21YM_X-ADV_PEARL_MUD_GRAY_NH-C47P_WINDSCREEN_HIGH-1024x576.jpg",
+            "21YM_X-ADV_PEARL_MUD_GRAY_NH-C47P_SEAT-1024x576.jpg"
+        ]
+    },
+    {
+        "name": "CB1000R BLACK EDITION",
+        "brand": "honda",
+        "category": "naked",
+        "description": "Ochii tăi trebuie să se adapteze. În afară de câteva detalii din aluminiu, întreaga motocicletă este învăluită de un negru intens.",
+        "price": "15390",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "145.5 CP "
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "830 mm"
+            },
+            {
+                "detail": "Consum",
+                "data": "5.8 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "16.2 l"
+            }
+        ],
+        "thumbnail": "Bike-Image-CB1000R-Black-Edition-09-300x213.png",
+        "mainImage": "cbr1000black-main.png",
+        "img": [
+            "CB1000R_Black_gallery-13.jpg",
+            "CB1000R_Black_gallery-11.jpg",
+            "CB1000R_Black_gallery-16-16.jpg"
+        ]
+    },
+    {
+        "name": "CB 1000 R",
+        "brand": "honda",
+        "category": "naked",
+        "description": "Compactă și musculară, atrage atenția prin finisajele metalice mate care reflectă tradiția unui Café Racer cu design minimalist „Neo Sports Café”.",
+        "price": "14150",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "145.5 CP "
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "830 mm"
+            },
+            {
+                "detail": "Consum",
+                "data": "6.0 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "16.2 l"
+            }
+        ],
+        "thumbnail": "21YM_CB1000_CANDY_CHROMOSPHERE_RED_R-381C_RHS_LAYERED-2-300x225.jpg",
+        "mainImage": "cbr1000-main.png",
+        "img": [
+            "CB-1000-R-1.jpg",
+            "CB-1000-R-2.jpg",
+            "21YM_CB1000_CANDY_CHROMOSPHERE_RED_R-381C_ENGINE.jpg"
+        ]
+    },
+    {
+        "name": "CB 650 R",
+        "brand": "honda",
+        "category": "naked",
+        "description": "Fiecare zi este o călatorie. Începe ziua cu noul CB650R. Stilul Neo Sports Café este gata sa te conducă într-o aventură urbană de neuitat.",
+        "price": "8750",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "95.2 CP"
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "810 mm"
+            },
+            {
+                "detail": "Consum",
+                "data": "4.9 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "15.4 l"
+            }
+        ],
+        "thumbnail": "23YM_CB650R_CANDY_CHROMOSPHERE_RED_R381_RHS-300x225.jpg",
+        "mainImage": "cb650r-main.png",
+        "img": [
+            "19YM_CB650R_9140.jpg",
+            "19YM_CB650R_9280_Engine.jpg",
+            "19YM_CB650R_9141.jpg"
+        ]
+    },
+    {
+        "name": "CB 750 Hornet",
+        "brand": "honda",
+        "category": "naked",
+        "description": "Este timpul ca o nouă generație de rideri să își lase amprenta. Cu un motor nou și puternic, un cadru gândit pentru sportivitate și stilul streetfighter inconfundabil, noul CB750 Hornet va întoarce toate privirile.",
+        "price": "8450",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "91.8 CP"
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "795 mm"
+            },
+            {
+                "detail": "Consum",
+                "data": "4.35 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "15.2 l"
+            }
+        ],
+        "thumbnail": "CB750-Hornet-4-3-300x225.png",
+        "mainImage": "cb750hornet-main.jpg",
+        "img": [
+            "415772_23YM_HONDA_CB750_HORNET-2000x1333.jpg",
+            "415690_23YM_HONDA_CB750_HORNET-2000x1500.jpg",
+            "415746_23YM_HONDA_CB750_HORNET-2000x1333.jpg"
         ]
     },
     {
@@ -117,10 +280,43 @@
             }
         ],
         "thumbnail": "2022-Yamaha-YZF600R6RCOMP-EU-Tech_Black-Studio-001-03_Mobile.jpg",
+        "mainImage": "r6-main.jpg",
         "img": [
             "2022-Yamaha-YZF600R6RCOMP-EU-Detail-001-03.jpg",
             "2022-Yamaha-YZF600R6RCOMP-EU-Detail-003-03.jpg",
             "2022-Yamaha-YZF600R6RCOMP-EU-Detail-007-03.jpg"
+        ]
+    },
+    {
+        "name": "R7",
+        "brand": "yamaha",
+        "category": "supersport",
+        "description": "De peste 20 de ani, modelele din seria R de la Yamaha au încântat mii de piloți. Acum, gama este completată cu adăugiri cu un aspect ager, gata să întâmpine o nouă generație de piloți în lumea R/World. Rapid, agil și atrăgător, modelul R7 oferă performanțe sportive și distracție de zi cu zi.",
+        "price": "9700",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "73CP"
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "835 mm"
+            },
+            {
+                "detail": "Consum",
+                "data": "4.2 L/100 km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "13 l"
+            }
+        ],
+        "thumbnail": "2022-Yamaha-YZF700R7-EU-Icon_Blue_-Studio-001-03_Mobile.jpg",
+        "mainImage": "r7-main.jpg",
+        "img": [
+            "2022-Yamaha-YZF700R7-EU-Detail-002-03_Mobile.jpg",
+            "2022-Yamaha-YZF700R7-EU-Detail-003-03_Mobile.jpg",
+            "2022-Yamaha-YZF700R7-EU-Detail-005-03_Mobile.jpg"
         ]
     },
     {
@@ -148,6 +344,7 @@
             }
         ],
         "thumbnail": "2022-Yamaha-YZF1000R1SPL-EU-Icon_Performance-Studio-001-03_Mobile.jpg",
+        "mainImage": "r1m-main.jpg",
         "img": [
             "2022-Yamaha-YZF1000R1SPL-EU-Detail-001-03.jpg",
             "2022-Yamaha-YZF1000R1SPL-EU-Detail-012-03.jpg",
@@ -179,6 +376,7 @@
             }
         ],
         "thumbnail": "2022-Yamaha-YZF1000R1SV1-EU-Anniversary_White-Studio-001-03_Mobile.jpg",
+        "mainImage": "r1gp-main.jpg",
         "img": [
             "2022-Yamaha-YZF1000R1SV1-EU-Detail-001-03.jpg",
             "2022-Yamaha-YZF1000R1SV1-EU-Detail-002-03.jpg",
@@ -186,375 +384,291 @@
         ]
     },
     {
-        "name": "Africa Twin",
-        "brand": "honda",
-        "category": "adventure",
-        "description": "Africa Twin este proiectată pentru a depăși limitele. Oferă manevrare precisă și agilă în off-road, fie că vorbim despre un drum forestier de viteză, sau o urcare pe un drum stâncos.",
-        "price": "14950",
-        "technical": [
-            {
-                "detail": "Putere",
-                "data": "102CP"
-            },
-            {
-                "detail": "Înălțime șa",
-                "data": "850/870 mm"
-            },
-            {
-                "detail": "Consum mixt",
-                "data": "4.9 L/100km"
-            },
-            {
-                "detail": "Volum rezervor",
-                "data": "18.8 l"
-            }
-        ],
-        "thumbnail": "Africa-details-bike-image-300x225.png",
-        "img": [
-            "22YM_AFRICA_TWIN_L1_LOCATION_2652-1024x768.jpg",
-            "22YM_AFRICA_TWIN_L1_LOCATION_2786-1024x768.jpg",
-            "22YM_AFRICA_TWIN_L1_LOCATION_9901-1024x768.jpg"
-        ]
-    },
-    {
-        "name": "Adventure Sports",
-        "brand": "honda",
-        "category": "adventure",
-        "description": "Privește către un nou orizont și către un nou cer senin. Pentru asta am construit noua Africa Twin Adventure Sports - pregătită să cutreiere lumea cu tehnologie avansată și dotări premium.",
-        "price": "19350",
-        "technical": [
-            {
-                "detail": "Putere",
-                "data": "102CP"
-            },
-            {
-                "detail": "Înălțime șa",
-                "data": "850/870 mm"
-            },
-            {
-                "detail": "Consum mixt",
-                "data": "4.9 L/100km"
-            },
-            {
-                "detail": "Volum rezervor",
-                "data": "24.8 l"
-            }
-        ],
-        "thumbnail": "Africa-Adventure-Details-11-300x225.png",
-        "img": [
-            "22YM_AFRICA_TWIN_L4_LOCATION_2095-1024x768.jpg",
-            "22YM_AFRICA_TWIN_L4_LOCATION_6078-1024x768.jpg",
-            "22YM_AFRICA_TWIN_L4_LOCATION_8464-1024x768.jpg"
-        ]
-    },
-    {
-        "name": "NC 750 X",
-        "brand": "honda",
-        "category": "adventure",
-        "description": "Noul NC750X este pregătit pentru orice aventură. Fie că mergi în oraș sau la drum lung, cutia automată cu dublu ambreiaj DCT iți va oferi tot confortul de care ai nevoie.",
-        "price": "8950",
-        "technical": [
-            {
-                "detail": "Putere",
-                "data": "58CP"
-            },
-            {
-                "detail": "Înălțime șa",
-                "data": "800 mm"
-            },
-            {
-                "detail": "Consum mixt",
-                "data": "3.5 L/100km"
-            },
-            {
-                "detail": "Volum rezervor",
-                "data": "14.1 l"
-            }
-        ],
-        "thumbnail": "NC750X-23YM-300x165.png",
-        "img": [
-            "21YM_NC750X_Grand_Prix_Red_R-380_Headlight_On_High-1024x576.jpg",
-            "21YM_NC750X_Grand_Prix_Red_R-380_Logo-1024x576.jpg",
-            "21YM_NC750X_Grand_Prix_Red_R-380_Tank-1024x576.jpg"
-        ]
-    },
-    {
-        "name": "R6 Race",
+        "name": "MT-10 SP",
         "brand": "yamaha",
-        "category": "supersport",
-        "description": "Aceasta este cea mai bună motocicletă Supersport de 600 cmc, care domină cursele WorldSSP de ani de zile. La fel ca toate modelele din seria R, a fost dezvoltată fără compromisuri pentru a atinge cele mai înalte niveluri de performanță. Și pentru a facilita și mai mult pregătirea ta și a echipei tale pentru sezonul de curse, modelul R6 RACE, destinat exclusiv circuitului, este acum livrat în varianta pregătită pentru curse.",
-        "price": "14050",
+        "category": "hyper naked",
+        "description": "Următoarea evoluție a modelului MT-10 SP este pregătită să îți prezinte experiența supremă de pilotaj. Motorul CP4 EU5 actualizat este cel mai puternic din gama Hyper Naked. Iar suspensia electronică revoluționară, semi-activă, și asistența de înaltă tehnologie pentru pilot reprezintă începutul unei noi ere palpitante pentru controlul electronic total.",
+        "price": "19500",
         "technical": [
             {
                 "detail": "Putere",
-                "data": "108CP"
+                "data": "165CP"
             },
             {
                 "detail": "Înălțime șa",
-                "data": "850 mm"
+                "data": "835 mm"
             },
             {
                 "detail": "Consum",
-                "data": "6.6 L/100km"
+                "data": "6.83 L/100km"
             },
             {
                 "detail": "Volum rezervor",
                 "data": "17 l"
             }
         ],
-        "thumbnail": "2022-Yamaha-YZF600R6RCOMP-EU-Tech_Black-Studio-001-03_Mobile.jpg",
+        "thumbnail": "2023-Yamaha-MT10DX-EU-Icon_Performance-Studio-001-03_Mobile.jpg",
+        "mainImage": "mt10sp-main.jpg",
         "img": [
-            "2022-Yamaha-YZF600R6RCOMP-EU-Detail-001-03.jpg",
-            "2022-Yamaha-YZF600R6RCOMP-EU-Detail-003-03.jpg",
-            "2022-Yamaha-YZF600R6RCOMP-EU-Detail-007-03.jpg"
+            "2023-Yamaha-MT10DX-EU-Detail-011-03_Mobile.jpg",
+            "2023-Yamaha-MT10DX-EU-Detail-002-03_Mobile.jpg",
+            "2023-Yamaha-MT10DX-EU-Detail-006-03_Mobile.jpg"
         ]
     },
-    { 
-        "name": "R1M",
+    {
+        "name": "MT-10",
         "brand": "yamaha",
-        "category": "supersport",
-        "description": "R1M este cea mai avansată motocicletă de serie creată vreodată de Yamaha. Construită special pentru performanțe supreme pe pistă, este echipată cu o tehnologie revoluționară de control electronic, care îți permite să forțezi mai mult și să îți descoperi adevăratul potențial.",
-        "price": "27050",
+        "category": "hyper naked",
+        "description": "Creat pentru a produce o senzație de cuplu îmbunătățită pentru cea mai palpitantă experiență, modelul MT-10 este cea mai avansată motocicletă Hyper Naked produsă vreodată de Yamaha. Produsă folosind tehnologia de ultimă oră pentru motor și șasiu de pe R1, cel mai recent model MT-10 oferă mai multă putere, mai multă agilitate și un răspuns mai bun.",
+        "price": "16200",
         "technical": [
             {
                 "detail": "Putere",
-                "data": "197CP"
+                "data": "165CP"
             },
             {
                 "detail": "Înălțime șa",
-                "data": "860 mm"
+                "data": "835 mm"
             },
             {
                 "detail": "Consum",
-                "data": "6.8 L/100km"
+                "data": "6.83 L/100km"
             },
             {
                 "detail": "Volum rezervor",
                 "data": "17 l"
             }
         ],
-        "thumbnail": "2022-Yamaha-YZF1000R1SPL-EU-Icon_Performance-Studio-001-03_Mobile.jpg",
+        "thumbnail": "2023-Yamaha-MT10-EU-Cyan_Storm-Studio-001-03_Mobile.jpg",
+        "mainImage": "mt10-main.jpg",
         "img": [
-            "2022-Yamaha-YZF1000R1SPL-EU-Detail-001-03.jpg",
-            "2022-Yamaha-YZF1000R1SPL-EU-Detail-012-03.jpg",
-            "2022-Yamaha-YZF1000R1SPL-EU-Detail-010-03.jpg"
+            "2023-Yamaha-MT10-EU-Detail-010-03_Mobile.jpg",
+            "2023-Yamaha-MT10-EU-Detail-011-03_Mobile.jpg",
+            "2023-Yamaha-MT10-EU-Detail-009-03_Mobile.jpg"
         ]
     },
     {
-        "name": "R1 World GP 60th Anniversary",
+        "name": "MT-07",
         "brand": "yamaha",
-        "category": "supersport",
-        "description": "Dispunând de tehnologie de ultimă oră de la modelul câștigător al Yamaha, M1 MotoGP®, R1 este supersportul suprem, de curse. Iar pentru a celebra 60 de ani de curse Grand Prix, a fost creat extraordinarul model R7 dedicat celei de-a 60-a aniversări World GP.",
-        "price": "21050",
+        "category": "hyper naked",
+        "description": "De când a fost lansată, cu peste 160.000 de unități vândute, MT-07 ocupă poziția numărul 1 în clasa sa. Cu un motor CP2 de 690 cmc, cu cuplu generos, șasiu compact și agil și flexibilitate excelentă, este imposibil să nu te îndrăgostești de cel mai bine vândut model Hyper Naked de la Yamaha.",
+        "price": "8200",
         "technical": [
             {
                 "detail": "Putere",
-                "data": "197CP"
+                "data": "73CP"
             },
             {
                 "detail": "Înălțime șa",
-                "data": "855 mm"
+                "data": "805 mm"
             },
             {
                 "detail": "Consum",
-                "data": "6.8 L/100km"
+                "data": "4.2 L/100km"
             },
             {
                 "detail": "Volum rezervor",
-                "data": "17 l"
+                "data": "14 l"
             }
         ],
-        "thumbnail": "2022-Yamaha-YZF1000R1SV1-EU-Anniversary_White-Studio-001-03_Mobile.jpg",
+        "thumbnail": "2023-Yamaha-MT07A-EU-Cyan_Storm-Studio-001-03_Mobile.jpg",
+        "mainImage": "mt07-main.jpg",
         "img": [
-            "2022-Yamaha-YZF1000R1SV1-EU-Detail-001-03.jpg",
-            "2022-Yamaha-YZF1000R1SV1-EU-Detail-002-03.jpg",
-            "2022-Yamaha-YZF1000R1SV1-EU-Detail-007-03.jpg"
+            "2023-Yamaha-MT07A-35-EU-Detail-004-03.jpg",
+            "2023-Yamaha-MT07A-EU-Detail-003-03.jpg",
+            "2023-Yamaha-MT07A-EU-Detail-007-03.jpg"
         ]
     },
     {
-        "name": "Africa Twin",
-        "brand": "honda",
-        "category": "adventure",
-        "description": "Africa Twin este proiectată pentru a depăși limitele. Oferă manevrare precisă și agilă în off-road, fie că vorbim despre un drum forestier de viteză, sau o urcare pe un drum stâncos.",
-        "price": "14950",
-        "technical": [
-            {
-                "detail": "Putere",
-                "data": "102CP"
-            },
-            {
-                "detail": "Înălțime șa",
-                "data": "850/870 mm"
-            },
-            {
-                "detail": "Consum mixt",
-                "data": "4.9 L/100km"
-            },
-            {
-                "detail": "Volum rezervor",
-                "data": "18.8 l"
-            }
-        ],
-        "thumbnail": "Africa-details-bike-image-300x225.png",
-        "img": [
-            "22YM_AFRICA_TWIN_L1_LOCATION_2652-1024x768.jpg",
-            "22YM_AFRICA_TWIN_L1_LOCATION_2786-1024x768.jpg",
-            "22YM_AFRICA_TWIN_L1_LOCATION_9901-1024x768.jpg"
-        ]
-    },
-    {
-        "name": "Adventure Sports",
-        "brand": "honda",
-        "category": "adventure",
-        "description": "Privește către un nou orizont și către un nou cer senin. Pentru asta am construit noua Africa Twin Adventure Sports - pregătită să cutreiere lumea cu tehnologie avansată și dotări premium.",
-        "price": "19350",
-        "technical": [
-            {
-                "detail": "Putere",
-                "data": "102CP"
-            },
-            {
-                "detail": "Înălțime șa",
-                "data": "850/870 mm"
-            },
-            {
-                "detail": "Consum mixt",
-                "data": "4.9 L/100km"
-            },
-            {
-                "detail": "Volum rezervor",
-                "data": "24.8 l"
-            }
-        ],
-        "thumbnail": "Africa-Adventure-Details-11-300x225.png",
-        "img": [
-            "22YM_AFRICA_TWIN_L4_LOCATION_2095-1024x768.jpg",
-            "22YM_AFRICA_TWIN_L4_LOCATION_6078-1024x768.jpg",
-            "22YM_AFRICA_TWIN_L4_LOCATION_8464-1024x768.jpg"
-        ]
-    },
-    {
-        "name": "NC 750 X",
-        "brand": "honda",
-        "category": "adventure",
-        "description": "Noul NC750X este pregătit pentru orice aventură. Fie că mergi în oraș sau la drum lung, cutia automată cu dublu ambreiaj DCT iți va oferi tot confortul de care ai nevoie.",
-        "price": "8950",
-        "technical": [
-            {
-                "detail": "Putere",
-                "data": "58CP"
-            },
-            {
-                "detail": "Înălțime șa",
-                "data": "800 mm"
-            },
-            {
-                "detail": "Consum mixt",
-                "data": "3.5 L/100km"
-            },
-            {
-                "detail": "Volum rezervor",
-                "data": "14.1 l"
-            }
-        ],
-        "thumbnail": "NC750X-23YM-300x165.png",
-        "img": [
-            "21YM_NC750X_Grand_Prix_Red_R-380_Headlight_On_High-1024x576.jpg",
-            "21YM_NC750X_Grand_Prix_Red_R-380_Logo-1024x576.jpg",
-            "21YM_NC750X_Grand_Prix_Red_R-380_Tank-1024x576.jpg"
-        ]
-    },
-    {
-        "name": "R6 Race",
+        "name": "MT-03",
         "brand": "yamaha",
-        "category": "supersport",
-        "description": "Aceasta este cea mai bună motocicletă Supersport de 600 cmc, care domină cursele WorldSSP de ani de zile. La fel ca toate modelele din seria R, a fost dezvoltată fără compromisuri pentru a atinge cele mai înalte niveluri de performanță.",
-        "price": "14050",
+        "category": "hyper naked",
+        "description": "Motocicletele Hyper Naked de la Yamaha sunt construite pentru experiențe palpitante. Cu designul lor atletic și performanța încărcată cu adrenalină, modelele MT din topurile de vânzări au cucerit inimile și mințile motocicliștilor din întreaga Europă. Iar acum există un MT-03 complet nou, cu specificații înalte și o prezență impunătoare pe șosea.",
+        "price": "6250",
         "technical": [
             {
                 "detail": "Putere",
-                "data": "108CP"
+                "data": "40CP"
             },
             {
                 "detail": "Înălțime șa",
-                "data": "850 mm"
+                "data": "780 mm"
             },
             {
                 "detail": "Consum",
-                "data": "6.6 L/100km"
+                "data": "N/A"
             },
             {
                 "detail": "Volum rezervor",
-                "data": "17 l"
+                "data": "14 l"
             }
         ],
-        "thumbnail": "2022-Yamaha-YZF600R6RCOMP-EU-Tech_Black-Studio-001-03_Mobile.jpg",
+        "thumbnail": "2023-Yamaha-MT320-EU-Cyan_Storm-Studio-001-03_Mobile.jpg",
+        "mainImage": "mt03-main.jpg",
         "img": [
-            "2022-Yamaha-YZF600R6RCOMP-EU-Detail-001-03.jpg",
-            "2022-Yamaha-YZF600R6RCOMP-EU-Detail-003-03.jpg",
-            "2022-Yamaha-YZF600R6RCOMP-EU-Detail-007-03.jpg"
+            "2023-Yamaha-MT320-EU-Detail-003-03.jpg",
+            "2023-Yamaha-MT320-EU-Detail-001-03.jpg",
+            "2023-Yamaha-MT320-EU-Detail-008-03.jpg"
         ]
     },
     {
-        "name": "R1M",
-        "brand": "yamaha",
+        "name": "GSX-R125",
+        "brand": "suzuki",
         "category": "supersport",
-        "description": "R1M este cea mai avansată motocicletă de serie creată vreodată de Yamaha. Construită special pentru performanțe supreme pe pistă, este echipată cu o tehnologie revoluționară de control electronic, care îți permite să forțezi mai mult și să îți descoperi adevăratul potențial.",
-        "price": "27050",
+        "description": "Suzuki GSX-R line definește performanța motocicletelor sport pentru mai bine de 30 ani, fiind vândute în mai mult de 1 milion de exemplare. De aceea, inginerii Suzuki, care și-au dedicat o bună parte din viață GSX-R-ului și-au luat rolul foarte în serios: fiecare GSX-R trebuie să fie foarte ușor și cea mai performantă motocicletă din clasa sa, într-un pachet perfect. ",
+        "price": "4650",
         "technical": [
             {
                 "detail": "Putere",
-                "data": "197CP"
+                "data": "20CP"
             },
             {
                 "detail": "Înălțime șa",
-                "data": "860 mm"
+                "data": "785 mm"
             },
             {
                 "detail": "Consum",
-                "data": "6.8 L/100km"
+                "data": "2.4 L/100km"
             },
             {
                 "detail": "Volum rezervor",
-                "data": "17 l"
+                "data": "11 l"
             }
         ],
-        "thumbnail": "2022-Yamaha-YZF1000R1SPL-EU-Icon_Performance-Studio-001-03_Mobile.jpg",
+        "thumbnail": "GSX-R125-M3.png",
+        "mainImage": "gsx-main.png",
         "img": [
-            "2022-Yamaha-YZF1000R1SPL-EU-Detail-001-03.jpg",
-            "2022-Yamaha-YZF1000R1SPL-EU-Detail-012-03.jpg",
-            "2022-Yamaha-YZF1000R1SPL-EU-Detail-010-03.jpg"
+            "Suzuki-GSX-R125-M3-action.jpg",
+            "Suzuki-GSX-R125-M3-action-3.jpg",
+            "Suzuki-GSX-R125-M3-action-1.jpg"
         ]
     },
     {
-        "name": "R1 World GP 60th Anniversary",
-        "brand": "yamaha",
-        "category": "supersport",
-        "description": "Dispunând de tehnologie de ultimă oră de la modelul câștigător al Yamaha, M1 MotoGP®, R1 este supersportul suprem, de curse. Iar pentru a celebra 60 de ani de curse Grand Prix, a fost creat extraordinarul model R7 dedicat celei de-a 60-a aniversări World GP.",
-        "price": "21050",
+        "name": "GSX-S1000GT",
+        "brand": "suzuki",
+        "category": "street",
+        "description": "Confortul, controlul, conectivitatea și stilul atrăgător se combină cu performanțele unei cilindree mari pentru a oferi o experiență touring sportivă demnă de denumirea GT (Grand Tourer). Indiferent dacă preferați curse de mare viteză pe șosele lungi și deschise sau negocierea drumurilor sinuoase. Indiferent dacă călătoriți singur sau preferați compania unui pasager.",
+        "price": "12990",
         "technical": [
             {
                 "detail": "Putere",
-                "data": "197CP"
+                "data": "152CP"
             },
             {
                 "detail": "Înălțime șa",
-                "data": "855 mm"
+                "data": "810 mm"
             },
             {
                 "detail": "Consum",
-                "data": "6.8 L/100km"
+                "data": "6.1 L/100km"
             },
             {
                 "detail": "Volum rezervor",
-                "data": "17 l"
+                "data": "19 l"
             }
         ],
-        "thumbnail": "2022-Yamaha-YZF1000R1SV1-EU-Anniversary_White-Studio-001-03_Mobile.jpg",
+        "thumbnail": "SUZUKI-GSX-S1000GT-Category-pic-1.png",
+        "mainImage": "gsx1000gt-main.png",
         "img": [
-            "2022-Yamaha-YZF1000R1SV1-EU-Detail-001-03.jpg",
-            "2022-Yamaha-YZF1000R1SV1-EU-Detail-002-03.jpg",
-            "2022-Yamaha-YZF1000R1SV1-EU-Detail-007-03.jpg"
+            "SUZUKI-GSX-S1000GT-Action-20.jpg",
+            "SUZUKI-GSX-S1000GT-Action-21.jpg",
+            "SUZUKI-GSX-S1000GT-Action-26.jpg"
+        ]
+    },
+    {
+        "name": "GSX-S1000",
+        "brand": "suzuki",
+        "category": "street",
+        "description": "Folosind genele supersportivelor, Suzuki a creat cel mai sportiv roadster de până acum, GSX-S1000. O motocicletă creată pentru senzații, care a moștenit propulsorul și principalele elemente constructive a supersportivei GSX-R1000.",
+        "price": "11490",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "152CP"
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "810 mm"
+            },
+            {
+                "detail": "Consum",
+                "data": "6.1 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "19 l"
+            }
+        ],
+        "thumbnail": "GSX-S1000--category-pic-M2-1.png",
+        "mainImage": "gsx1000-main.png",
+        "img": [
+            "GSX-S1000-live-58.jpg",
+            "GSX-S1000-live-46.jpg",
+            "GSX-S1000-live-50.jpg"
+        ]
+    },
+    {
+        "name": "GSX-8S",
+        "brand": "suzuki",
+        "category": "street",
+        "description": "GSX-8S a fost dezvoltat cu scopul de a le oferi utilizatorilor de toate vârstele și abilitățile posibilități nelimitate de a se bucura de experiența pilotajului.",
+        "price": "0",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "0"
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "810 mm"
+            },
+            {
+                "detail": "Consum",
+                "data": "4.2 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "14 l"
+            }
+        ],
+        "thumbnail": "Suzuki-GSX800-model-cat-pic.png",
+        "mainImage": "gsx800-main.png",
+        "img": [
+            "Suzuki-GSX800-action.jpg",
+            "Suzuki-GSX800-action-6.jpg",
+            "Suzuki-GSX800-action-8.jpg"
+        ]
+    },
+    {
+        "name": "GSX-650X",
+        "brand": "suzuki",
+        "category": "street",
+        "description": "Dacă ești în căutarea unui motor sportiv în stil „cafe racer” trebuie privit cu atenție Suzuki SV650X. Cu motorul V-Twin (2 cilindri în „V”) ascuns într-un cadru suplu și ușor, SV650X combină puterea și agilitatea cu aspectul „café racer”. În traficul urban intens sau pe drumuri nemodernizate, motocicleta oferă o plăcere deosebită a pilotajului. Oriunde va fi parcat Suzuki SV650X, aspectul retro va atrage atenția prin stilul farului, carenei restilizate, ale șelei și scărițelor redesenate. Puterea și maniabilitatea asigură o plăcere deosebită în exploatarea acestei motociclete.",
+        "price": "7390",
+        "technical": [
+            {
+                "detail": "Putere",
+                "data": "73CP"
+            },
+            {
+                "detail": "Înălțime șa",
+                "data": "790 mm"
+            },
+            {
+                "detail": "Consum",
+                "data": "4 L/100km"
+            },
+            {
+                "detail": "Volum rezervor",
+                "data": "14.5 l"
+            }
+        ],
+        "thumbnail": "SV650X-m3-model.png",
+        "mainImage": "gsx650x-main.png",
+        "img": [
+            "SV-650X-24.jpg",
+            "SV-650X-25.jpg",
+            "SV-650X-28.jpg"
         ]
     }
 ]

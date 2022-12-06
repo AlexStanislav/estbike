@@ -28,6 +28,18 @@ module.exports = {
             path: '/contact',
 
           },
+          {
+            path: '/rabla',
+
+          },
+          {
+            path: '/service',
+
+          },
+          {
+            path: '/model',
+
+          },
         ]
       })
     ]
