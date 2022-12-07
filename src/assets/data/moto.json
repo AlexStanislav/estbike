@@ -612,11 +612,11 @@
         "brand": "suzuki",
         "category": "street",
         "description": "GSX-8S a fost dezvoltat cu scopul de a le oferi utilizatorilor de toate vârstele și abilitățile posibilități nelimitate de a se bucura de experiența pilotajului.",
-        "price": "0",
+        "price": "12000",
         "technical": [
             {
                 "detail": "Putere",
-                "data": "0"
+                "data": "120"
             },
             {
                 "detail": "Înălțime șa",

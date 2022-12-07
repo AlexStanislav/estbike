@@ -108,6 +108,7 @@ export default {
     this.getModels();
     this.displayModels = this.currentModels;
     let self = this;
+
     window.EventBus.listen("brand-selected", function () {
       self.displayModels = self.currentModels;
       self.getModels();

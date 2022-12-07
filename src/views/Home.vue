@@ -45,7 +45,7 @@
               alt="Logo EstBike"
             />
           </div>
-          <div class="contact-handle">+40 733 782 453</div>
+          <div class="contact-handle"><a href="https://wa.me/0733 782 453">0733 782 453</a></div>
           <br />
           <div class="contact-handle">
             <font-awesome-icon icon="fas fa-envelope" />

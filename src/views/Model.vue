@@ -158,7 +158,16 @@ export default {
     };
   },
   mounted() {
-    let self = this;
+    let self = this
+    if(!this.currentModel.name){
+      this.$router.push("/models");
+    }
+    
+    window.EventBus.listen("reloadmodel", function(){
+      setTimeout(() => {
+        self.getTechNumbers()
+      }, 300);
+    })
     setTimeout(() => {
       self.getTechNumbers();
     }, 1500);
@@ -310,7 +319,7 @@ export default {
     height: auto;
     background-size: contain;
     background-position: right;
-    // background-repeat: no-repeat;
+    background-repeat: no-repeat;
     clip-path: polygon(25% 0%, 100% 0%, 100% 101%, 25% 100%, 0% 50%);
   }
   img {
@@ -374,8 +383,8 @@ export default {
 }
 
 #bike-details-container {
-  width: 80%;
-  font-size: 2rem;
+  width: 79%;
+  font-size: 1.5rem;
   position: absolute;
   top: 0;
   color: white;

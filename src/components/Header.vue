@@ -11,7 +11,7 @@
         />
         <div id="phone-number-container">
           <div id="phone-number-title">Telefon</div>
-          <div id="phone-number">0733 782 453</div>
+          <div id="phone-number"><a href="https://wa.me/0733782453" target="_blank">0733 782 453</a></div>
         </div>
       </div>
       <nav>
@@ -37,7 +37,7 @@
         <img :src="require('@/assets/img/logoest.jpg')" alt="Logo EstBike" />
       </div>
       <div id="phone-number-container">
-        <div id="phone-number">+40 0733 782 453</div>
+        <div id="phone-number"><a href="https://wa.me/0733782453" target="_blank">+40 733 782 453</a></div>
       </div>
     </div>
   </header>
@@ -106,6 +106,10 @@ header {
 
 #phone-number {
   font-size: 1rem;
+  a{
+    text-decoration: none;
+    color: white;
+  }
 }
 
 nav {

@@ -44,6 +44,10 @@
     height: 50vh !important;
 }
 
+#main-image-container .main-image {
+    width: 100% !important;
+}
+
 #main-image-container{
     margin-left: 0 !important;
     margin-top: 0;
@@ -55,7 +59,8 @@
 
 .main-image, #main-image-bg{
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 100%, 0 100%) !important;
-    background-color: $dark-shade;
+    // background-color: $dark-shade;
+    background-color: white;
     height: fit-content;
 }
 

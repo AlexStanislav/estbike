@@ -17,7 +17,7 @@
         </div>
         <div class="footer-info">
           <div class="footer-info-title">TELEFON:</div>
-          <div class="footer-info-content">0733 782 453</div>
+          <div class="footer-info-content"><a href="https://wa.me/0733782453" target="_blank">+40 733 782 453</a></div>
         </div>
         <div class="footer-info">
           <div class="footer-info-title">EMAIL:</div>

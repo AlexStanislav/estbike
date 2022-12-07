@@ -32,8 +32,13 @@ export default {
   },
   methods: {
     showInfo(data) {
+      if(this.$route.path !== "/model"){
+        this.$router.push("/model");
+      }else{
+        console.log('test');
+        window.EventBus.dispatch("reloadmodel")
+      }
       this.$store.commit("selectModel", data);
-      this.$router.push("/model");
       window.scrollTo({
         top: 0,
         behavior: "smooth",

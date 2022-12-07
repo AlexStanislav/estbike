@@ -12,6 +12,9 @@
     height: 90vh !important;
 }
 
+#main-image-container .main-image {
+    width: 85% !important;
+}
 
 #bike-details-container p{
     margin: 1rem !important;
@@ -40,7 +43,8 @@
 
 .main-image{
     background-repeat: no-repeat !important;
-    background: $dark-shade;
+    // background: $dark-shade;
+    background: white;
 }
 
 #similar-models-container{

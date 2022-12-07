@@ -98,6 +98,10 @@
     .desktop-logo{
         display: none;
     }
+
+    #mobile-header{
+        display: flex !important;
+    }
     
     #header-container{
         display: none;
@@ -208,6 +212,10 @@
 
     main{
         width: 100%;
+    }
+
+    #mobile-header{
+        display: flex !important;
     }
 
     
